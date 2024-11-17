@@ -1,6 +1,6 @@
 let canvas = document.getElementById("canvas");
 let pen = canvas.getContext("2d");
-let global_rows = 30;
+let global_rows = 25;
 let global_cols = 50;
 canvas.style.top = "50px";
 canvas.style.left = "50px";
