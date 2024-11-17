@@ -1,0 +1,36 @@
+
+label {
+    /* font-family: 'Xanh Mono', monospace; */
+    font-family: 'Nova Mono', monospace;
+}
+button {
+    /* font-family: 'Xanh Mono', monospace; */
+    font-family: 'Nova Mono', monospace;
+}
+body {
+    background-color: rgb(103, 98, 98);
+}
+
+a {
+    font-family: 'Nova Mono', monospace;
+
+}
+el {
+    font-family: Monoton;
+    text-indent: 5000px
+
+}
+#rule {
+    font-family: Monoton;
+    width : 50%;
+}
+.container {
+    position: absolute;
+}
+#canvas {
+    position: absolute;
+    background: #000;
+    font-family: Monoton;
+}
+
+  

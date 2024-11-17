@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&family=Xanh+Mono:ital@1&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+        </style> 
+        <link rel="stylesheet" type="text/css" href="spaceship.css" />     
+    </head>
+    <div class="container">
+        <canvas id="canvas" width=1000 height=1000></canvas>
+    </div>
+    <label for="rows">width</label>
+    <input type="text" id="width" name="rows" >
+    <label for="rows">height</label>
+    <input type="text" id="height" name="cols">
+    <label for="rows">cols</label>
+    <input type="text" id="cols" name="rows" >
+    <label for="rows">rows</label>
+    <input type="text" id="rows" name="rows" >
+    <button onclick="getChoices();"> apply </button>
+    <button onclick="reset();"> seed </button>
+    <button onclick="newFilter();"> new rule </button>
+    <br>
+    <!-- <label for="rows">filtr</label> -->
+    <!-- <input type="text" id="filter" style="width: 993px;" name="filter" value="" > -->
+    <script src="automata.js"></script>
+    <script src="plot.js"></script>
+    <script src="rule.js"></script>
+    <script src="input.js"></script>
+    <script src="global.js"></script>
+    <script src="manager.js"></script>
+    <script src="main.js"></script>
+</html>
